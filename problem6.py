@@ -11,7 +11,7 @@ def sumOfSquares(x):
     return (x*(x+1)*(2*x+1))/6
 
 
-if choice == "a":5
+if choice == "a":
     print("brute force")
     print("__________________")
     start = time.time()

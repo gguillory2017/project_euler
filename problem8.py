@@ -1,6 +1,6 @@
 #Find the 13 digit number in the data file with the largest product.
-file = open("data\problem8data.txt", "r")
-numbers = file.read().replace('\n', "")
+import os
+numbers = open(os.path.dirname(__file__) +"/data/problem8data.txt" , "r").read().replace('\n', "")
 
 numSet = set()
 
